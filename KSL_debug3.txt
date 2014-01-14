@@ -1,0 +1,30 @@
+* About to connect() to www.eshop-rychlo.sk port 80 (#0)
+*   Trying 81.0.206.124...
+* connected
+* Connected to www.eshop-rychlo.sk (81.0.206.124) port 80 (#0)
+> POST /admin/script.php HTTP/1.1
+Host: www.eshop-rychlo.sk
+Accept: */*
+Cookie: PHPSESSID=cn6ee4f98oiua50gd785jul2k6; nette-browser=gph85t2p11
+Content-Length: 8
+Content-Type: application/x-www-form-urlencoded
+
+* upload completely sent off: 8 out of 8 bytes
+< HTTP/1.1 200 OK
+< Date: Tue, 14 Jan 2014 13:43:58 GMT
+< Server: Apache
+< X-Powered-By: Nette Framework
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Pragma: no-cache
+* Replaced cookie PHPSESSID="cn6ee4f98oiua50gd785jul2k6" for domain www.eshop-rychlo.sk, path /, expire 0
+< Set-Cookie: PHPSESSID=cn6ee4f98oiua50gd785jul2k6; path=/; httponly
+* Replaced cookie nette-browser="gph85t2p11" for domain www.eshop-rychlo.sk, path /, expire 0
+< Set-Cookie: nette-browser=gph85t2p11; path=/; httponly
+< X-Frame-Options: deny
+< Vary: Accept-Encoding,User-Agent
+< Transfer-Encoding: chunked
+< Content-Type: text/html; charset=utf-8
+< 
+* Connection #0 to host www.eshop-rychlo.sk left intact
+* Closing connection #0

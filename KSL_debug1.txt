@@ -1,0 +1,59 @@
+* About to connect() to www.eshop-rychlo.sk port 80 (#0)
+*   Trying 81.0.206.124...
+* connected
+* Connected to www.eshop-rychlo.sk (81.0.206.124) port 80 (#0)
+> POST /admin/pruvodce.php HTTP/1.1
+Host: www.eshop-rychlo.sk
+Accept: */*
+Cookie: PHPSESSID=ecq7oc8031drk42qp1shlsna57; nette-browser=gph85t2p11
+Content-Length: 44
+Content-Type: application/x-www-form-urlencoded
+
+* upload completely sent off: 44 out of 44 bytes
+< HTTP/1.1 302 Found
+< Date: Tue, 14 Jan 2014 13:43:57 GMT
+< Server: Apache
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Pragma: no-cache
+< X-Frame-Options: deny
+* Replaced cookie PHPSESSID="60r4inkbpkca838eeplp5gatj0" for domain www.eshop-rychlo.sk, path /, expire 0
+< Set-Cookie: PHPSESSID=60r4inkbpkca838eeplp5gatj0; path=/; HttpOnly
+* Replaced cookie PHPSESSID="cn6ee4f98oiua50gd785jul2k6" for domain www.eshop-rychlo.sk, path /, expire 0
+< Set-Cookie: PHPSESSID=cn6ee4f98oiua50gd785jul2k6; path=/; HttpOnly
+< Location: script.php
+< Connection: close
+< Vary: Accept-Encoding,User-Agent
+< Content-Length: 3249
+< Content-Type: text/html; charset=utf-8
+< 
+* Closing connection #0
+* Issue another request to this URL: 'http://www.eshop-rychlo.sk/admin/script.php'
+* Violate RFC 2616/10.3.3 and switch from POST to GET
+* About to connect() to www.eshop-rychlo.sk port 80 (#0)
+*   Trying 81.0.206.124...
+* connected
+* Connected to www.eshop-rychlo.sk (81.0.206.124) port 80 (#0)
+> GET /admin/script.php HTTP/1.1
+Host: www.eshop-rychlo.sk
+Accept: */*
+Cookie: PHPSESSID=cn6ee4f98oiua50gd785jul2k6; nette-browser=gph85t2p11
+
+< HTTP/1.1 200 OK
+< Date: Tue, 14 Jan 2014 13:43:57 GMT
+< Server: Apache
+< X-Powered-By: Nette Framework
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Pragma: no-cache
+* Replaced cookie PHPSESSID="cn6ee4f98oiua50gd785jul2k6" for domain www.eshop-rychlo.sk, path /, expire 0
+< Set-Cookie: PHPSESSID=cn6ee4f98oiua50gd785jul2k6; path=/; httponly
+* Replaced cookie nette-browser="gph85t2p11" for domain www.eshop-rychlo.sk, path /, expire 0
+< Set-Cookie: nette-browser=gph85t2p11; path=/; httponly
+< X-Frame-Options: deny
+< Vary: Accept-Encoding,User-Agent
+< Transfer-Encoding: chunked
+< Content-Type: text/html; charset=utf-8
+< 
+* Connection #0 to host www.eshop-rychlo.sk left intact
+* Closing connection #0
