@@ -2,13 +2,14 @@
 $url = "http://www.eshop-rychlo.sk/admin/pruvodce.php";
 $indexPageURL = "http://www.eshop-rychlo.sk/admin/script.php?vol=eshop4&svol=2";
 $addProductURL = "http://www.eshop-rychlo.sk/admin/script.php?vol=440&pages=0&akce=x&menu=&druh=&svol=2&slovo=&filtrsk=";
+$scriptURL = "www.eshop-rychlo.sk/admin/script.php?function=theFormSubmitted";
 $usn = "lubosjurik@gmail.com";
 $pwd = "petersrnka";
 
 // $sessionID = GetSessionID($url) . "<br><br>";
 Login($url, $usn, $pwd);
 download_page($addProductURL);
-echo addProduct("http://www.eshop-rychlo.sk/admin/script.php");
+echo addProduct($scriptURL);
 
 
 function download_page($url2){        
@@ -38,7 +39,7 @@ function addProduct($url) {
 
         //set POST variables
         $post_data = array(
-                'nazev' => '0'
+                'nazev' => 'AUTOMATICKE'
         );
 
         //url-ify the data for the POST

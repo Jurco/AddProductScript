@@ -2,23 +2,23 @@
 *   Trying 81.0.206.124...
 * connected
 * Connected to www.eshop-rychlo.sk (81.0.206.124) port 80 (#0)
-> POST /admin/script.php HTTP/1.1
+> POST /admin/script.php?function=theFormSubmitted HTTP/1.1
 Host: www.eshop-rychlo.sk
 Accept: */*
-Cookie: PHPSESSID=cn6ee4f98oiua50gd785jul2k6; nette-browser=gph85t2p11
-Content-Length: 8
+Cookie: PHPSESSID=4pl7uh9mi1uvnt7t7co9bibbl3; nette-browser=gph85t2p11
+Content-Length: 18
 Content-Type: application/x-www-form-urlencoded
 
-* upload completely sent off: 8 out of 8 bytes
+* upload completely sent off: 18 out of 18 bytes
 < HTTP/1.1 200 OK
-< Date: Tue, 14 Jan 2014 13:43:58 GMT
+< Date: Wed, 15 Jan 2014 13:03:38 GMT
 < Server: Apache
 < X-Powered-By: Nette Framework
 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
 < Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
 < Pragma: no-cache
-* Replaced cookie PHPSESSID="cn6ee4f98oiua50gd785jul2k6" for domain www.eshop-rychlo.sk, path /, expire 0
-< Set-Cookie: PHPSESSID=cn6ee4f98oiua50gd785jul2k6; path=/; httponly
+* Replaced cookie PHPSESSID="4pl7uh9mi1uvnt7t7co9bibbl3" for domain www.eshop-rychlo.sk, path /, expire 0
+< Set-Cookie: PHPSESSID=4pl7uh9mi1uvnt7t7co9bibbl3; path=/; httponly
 * Replaced cookie nette-browser="gph85t2p11" for domain www.eshop-rychlo.sk, path /, expire 0
 < Set-Cookie: nette-browser=gph85t2p11; path=/; httponly
 < X-Frame-Options: deny

@@ -1,0 +1,7 @@
+cURL dotaz na Nette 
+
+Mam plne funkcny web beziaci na Nette. Potrebujem z INEHO webu odoslat formular umiestneny na Nette webe (POSTom).
+Snazim sa dotaz robit pomocou cURLu. Ked som nieco podobne robil na jednoduchom webe nebol s tym ziadny problem. Myslim si ze problem je v tom, ze Nette nevie ktory formular bol odoslany, pretoze script (model) spracujuci poziadavku vie ktoru funkciu na spracovanie zavolat a dalej pomocou funkcie isSubmittedBy() vie ktory submit button bol stlaceny. 
+Je najaky sposob ako by sa dalo nieco taketo vobec poriesit ? 
+
+Dik. 
